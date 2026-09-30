@@ -3,5 +3,7 @@
 module.exports = (req, res) => {
   if (req.url !== '/') return res.status(404).send('Not found');
   // Vercel serves public files separately from the function bundle.
-  return res.redirect(307, '/index.html');
+  res.statusCode = 307;
+  res.setHeader('Location', '/index.html');
+  return res.end();
 };
