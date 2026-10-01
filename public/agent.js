@@ -47,6 +47,8 @@
   }
   document.addEventListener('submit', event => {
     if (event.target.id !== 'askForm') return;
+    // Preserve the existing real Nebius/Nemotron request path whenever a session key exists.
+    if (sessionStorage.getItem('nebius-key')) return;
     event.preventDefault(); event.stopImmediatePropagation();
     const field = document.querySelector('#question'), question = field.value.trim(); if (!question) return;
     const chat = document.querySelector('#chat'); chat.insertAdjacentHTML('beforeend', `<div class="bubble user">${question.replace(/[<>&]/g, '')}</div>`); field.value = '';
