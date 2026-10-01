@@ -1,8 +1,10 @@
 {
   "version": 2,
   "cleanUrls": false,
-  "outputDirectory": "public",
-  "functions": { "index.js": { "includeFiles": "public/**" } },
+  "builds": [
+    { "src": "index.js", "use": "@vercel/node", "config": { "includeFiles": ["public/**"] } },
+    { "src": "api/*.js", "use": "@vercel/node" }
+  ],
   "routes": [
     { "src": "/api/memories", "dest": "/api/memories.js" },
     { "src": "/api/chat", "dest": "/api/chat.js" },
