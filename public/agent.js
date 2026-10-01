@@ -8,7 +8,13 @@
     importance: extra.importance || 'medium', status: extra.status || 'saved', relatedMemoryIds: extra.relatedMemoryIds || [], createdAt: now(), updatedAt: now(), ...extra
   });
   const saved = () => JSON.parse(localStorage.getItem(memoryKey) || '[]');
-  const persist = memories => localStorage.setItem(memoryKey, JSON.stringify(memories));
+  const device = () => {
+    let id = localStorage.getItem('promiseos-device-id'), secret = localStorage.getItem('promiseos-device-secret');
+    if (!id) { id = crypto.randomUUID(); secret = crypto.randomUUID() + crypto.randomUUID(); localStorage.setItem('promiseos-device-id', id); localStorage.setItem('promiseos-device-secret', secret); }
+    return { id, secret };
+  };
+  const sync = memory => { const d = device(); return fetch('/api/memories', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({...memory, deviceId:d.id, deviceSecret:d.secret}) }).catch(() => null); };
+  const persist = memories => { localStorage.setItem(memoryKey, JSON.stringify(memories)); memories.slice(0, 2).forEach(sync); };
   function commitmentsAsMemory() {
     return (typeof items !== 'undefined' ? items : []).map(item => makeMemory('COMMITMENT', item.title, item.evidence || 'Saved commitment', {
       id: `commitment-${item.id}`, status: item.status, importance: item.risk ? 'high' : 'medium', due: item.due, risk: !!item.risk, source: 'Commitment ledger'
