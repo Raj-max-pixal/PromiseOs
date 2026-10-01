@@ -23,6 +23,7 @@
       if (memory.risk || memory.importance === 'high') score += 4;
       if (memory.status === 'open') score += 2;
       if (/focus|now|priority|risk/.test(question.toLowerCase()) && memory.type === 'COMMITMENT') score += 3;
+      if (/focus|now|priority|progress/.test(question.toLowerCase()) && /FOCUS_SESSION|REFLECTION/.test(memory.type)) score += 3;
       return { memory, score };
     });
     return ranked.sort((a,b) => b.score - a.score).slice(0, 5).map(x => x.memory);
@@ -31,7 +32,9 @@
     const top = evidence.find(x => x.type === 'COMMITMENT' && x.status === 'open');
     if (!top) return { text: 'SUPPORTED FACT: I do not have an open commitment with enough saved context to prioritize. AI RECOMMENDATION: capture the next concrete promise first.', action: null };
     const why = [top.due && `due ${top.due}`, top.risk && 'currently at risk', top.importance === 'high' && 'high importance'].filter(Boolean).join(', ') || 'an open commitment';
-    if (/focus|now|do/.test(question.toLowerCase())) return { text: `SUPPORTED FACT: “${top.title}” is saved in your ledger (${why}). AI RECOMMENDATION: protect one 25-minute session for it before taking on lower-priority work.`, action: { type: 'START_FOCUS', commitmentId: top.id, title: top.title } };
+    const recentLearning = evidence.find(x => x.type === 'FOCUS_SESSION' || x.type === 'REFLECTION');
+    const learningLine = recentLearning ? ` SUPPORTED FACT: I also considered your recent ${recentLearning.type.toLowerCase().replace('_',' ')}: “${recentLearning.title}.”` : '';
+    if (/focus|now|do/.test(question.toLowerCase())) return { text: `SUPPORTED FACT: “${top.title}” is saved in your ledger (${why}).${learningLine} AI RECOMMENDATION: protect one 25-minute session for it before taking on lower-priority work.`, action: { type: 'START_FOCUS', commitmentId: top.id, title: top.title } };
     if (/risk/.test(question.toLowerCase())) return { text: `SUPPORTED FACT: ${evidence.filter(x => x.risk).map(x => x.title).join(', ') || 'No saved item is marked at risk'}. AI RECOMMENDATION: resolve the earliest external dependency first.`, action: null };
     return { text: `SUPPORTED FACT: I found ${evidence.length} relevant saved memories. AI RECOMMENDATION: start with “${top.title}” because it is ${why}.`, action: { type: 'START_FOCUS', commitmentId: top.id, title: top.title } };
   }
@@ -63,5 +66,8 @@
     const focus = makeMemory('FOCUS_SESSION', '25-minute focus session', 'Completed a protected focus session.', { importance: 'high', status: 'completed' });
     const reflection = makeMemory('REFLECTION', 'Focus reflection', text, { relatedMemoryIds: [focus.id], status: 'saved' });
     persist([focus, reflection, ...saved()]);
+    const chat = document.querySelector('#chat');
+    chat.insertAdjacentHTML('beforeend', `<section class="memory-updated"><b>🧠 MEMORY UPDATED</b><span>Focus session completed</span><span>+ Reflection saved</span><small>This memory can influence future PromiseOS recommendations.</small></section>`);
+    chat.scrollTop = chat.scrollHeight;
   });
 })();
