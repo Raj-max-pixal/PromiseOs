@@ -1,149 +1,287 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00E5FF,50:4169E1,100:7B2FF7&text=PROMISE_OS&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Your%20commitments%2C%20not%20another%20chatbot.&descAlignY=60&descSize=18" width="100%" alt="PromiseOS Animated Header">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:020024,25:090979,60:00D4FF,100:7B2FF7&text=PROMISE_OS&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=THE%20FUTURE%20OF%20PERSONAL%20ACCOUNTABILITY&descSize=16&descAlignY=55" width="100%" alt="Animated PromiseOS Cyberpunk Banner">
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=700&lines=Capture+the+promise.;Verify+the+commitment.;Complete+the+mission.;AI-powered+personal+accountability." alt="Animated PromiseOS Taglines">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2500&pause=700&color=00E5FF&center=true&vCenter=true&width=850&lines=AI-Powered+Commitment+Management;Powered+by+NVIDIA+Nemotron;Inference+via+Nebius+Token+Factory;Capture.+Verify.+Complete." alt="PromiseOS Animated Text">
 
 <br><br>
 
-[![Nebius x NVIDIA Hackathon](https://img.shields.io/badge/Nebius_x_NVIDIA-Global_AI_Hackathon-76B900?style=for-the-badge\&logo=nvidia\&logoColor=white)](https://nebius.com)
-[![NVIDIA Nemotron](https://img.shields.io/badge/AI-NVIDIA_Nemotron-76B900?style=for-the-badge\&logo=nvidia\&logoColor=white)](https://build.nvidia.com)
-[![Nebius Token Factory](https://img.shields.io/badge/Inference-Nebius_Token_Factory-00E5FF?style=for-the-badge)](https://nebius.ai)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-00FF99?style=for-the-badge&logo=statuspage&logoColor=black" alt="Project Status">
+<img src="https://img.shields.io/badge/AI-NVIDIA_NEMOTRON-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Nemotron">
+<img src="https://img.shields.io/badge/INFERENCE-NEBIUS-00D4FF?style=for-the-badge" alt="Nebius Inference">
+<img src="https://img.shields.io/badge/LICENSE-MIT-blueviolet?style=for-the-badge" alt="MIT License">
+
+<br><br>
+
+<a href="https://nebius-nvidia-hackathon-seven.vercel.app">
+<img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO-00D4FF?style=for-the-badge&logoColor=white" alt="Launch Live Demo">
+</a>
+
+<a href="https://github.com/Raj-max-pixal/PromiseOs">
+<img src="https://img.shields.io/badge/💻_EXPLORE_SOURCE_CODE-7B2FF7?style=for-the-badge" alt="Explore Source Code">
+</a>
+
+<br><br>
+
+**Your commitments, not another chatbot.**
+
+*An AI-powered commitment ledger that turns scattered information into actionable responsibilities.*
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌌 THE PROMISEOS EXPERIENCE
+
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="420" alt="Animated technology visualization">
 
 <br>
 
-### 🌐 [LIVE DEMO](https://nebius-nvidia-hackathon-seven.vercel.app) · [💻 SOURCE CODE](https://github.com/Raj-max-pixal/PromiseOs)
+### From forgotten promises to verified commitments.
+
+</div>
+
+> Replace the decorative GIF above with a recording of your actual application for the strongest hackathon presentation.
+
+---
+
+## 🧠 WHAT IS PROMISEOS?
+
+PromiseOS is a privacy-conscious AI commitment management platform designed to extract actionable responsibilities from notes, conversations, and unstructured text.
+
+Instead of merely responding to prompts, PromiseOS focuses on identifying commitments, preserving their context, and helping users track their progress.
+
+<div align="center">
+
+|    🧠 INTELLIGENCE    |     🛡️ CONTROL     |        ⚡ EXECUTION       |
+| :-------------------: | :-----------------: | :----------------------: |
+| AI-powered extraction |    Human approval   |    Commitment tracking   |
+|  Structured proposals | Source verification |    Deadline awareness    |
+|  Context preservation | Local-first records | Action-oriented workflow |
 
 </div>
 
 ---
 
-## 🎬 Experience PromiseOS
+## 🎬 01 — ANIMATED PRODUCT SHOWCASE
 
 <div align="center">
 
-<!-- Replace this image with your actual application demo GIF -->
+### 💻 Application Demo
 
-<img src="assets/promiseos-demo.gif" width="90%" alt="PromiseOS Application Demo">
+<img src="assets/promiseos-demo.gif" width="95%" alt="PromiseOS complete application demonstration">
 
-**From scattered conversations to structured commitments.**
+*Recommended: Record a 15–20-second walkthrough of the real application.*
+
+<br>
+
+### 🧠 AI Extraction Engine
+
+<img src="assets/ai-extraction.gif" width="80%" alt="Animated AI extraction demonstration">
+
+Convert natural language into structured commitments.
+
+<br>
+
+### 🛡️ Human Approval Workflow
+
+<img src="assets/approval-workflow.gif" width="80%" alt="Animated human approval workflow">
+
+Review AI-generated proposals before accepting them into the ledger.
+
+<br>
+
+### 📊 Daily Priority Dashboard
+
+<img src="assets/today-dashboard.gif" width="80%" alt="Animated commitment dashboard">
+
+Surface important responsibilities and upcoming deadlines.
 
 </div>
 
-> **Note:** Add your actual demonstration GIF at `assets/promiseos-demo.gif`. The image will not appear until that file exists in your repository.
-
 ---
 
-## ⚡ What Is PromiseOS?
-
-PromiseOS is an AI-powered commitment management platform that transforms unstructured notes, conversations, and ideas into actionable commitments.
-
-Powered by **NVIDIA Nemotron through Nebius Token Factory**, PromiseOS combines AI extraction, human approval, and a local-first commitment ledger.
-
-Instead of generating another conversation, PromiseOS helps users identify what they promised, determine what needs attention, and track what remains unfinished.
+## ⚡ 02 — THE AI PIPELINE
 
 <div align="center">
 
-|       🧠 AI Intelligence      |       🔒 Privacy First      |     🎯 Accountability     |
-| :---------------------------: | :-------------------------: | :-----------------------: |
-| Extract commitments from text |  Browser-based local ledger | Track tasks and deadlines |
-|    Structured AI responses    | Server-side API credentials |   Human-approved actions  |
-|   Evidence-backed proposals   |   User-controlled approval  | Risk-aware prioritization |
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2000&pause=500&color=76B900&center=true&vCenter=true&width=750&lines=INPUT+RECEIVED...;EXTRACTING+COMMITMENTS...;GENERATING+STRUCTURED+DATA...;WAITING+FOR+HUMAN+APPROVAL...;READY+FOR+TRACKING." alt="Animated AI Processing Pipeline">
 
 </div>
-
----
-
-## ✨ Features in Action
-
-### 🧠 01 — AI Commitment Extraction
-
-<img src="assets/ai-extraction.gif" width="100%" alt="AI Commitment Extraction Animation">
-
-Transform ordinary sentences into structured tasks with relevant details, owners, deadlines, and supporting source excerpts.
-
-### 🛡️ 02 — Human Approval Gate
-
-<img src="assets/approval-workflow.gif" width="100%" alt="Human Approval Workflow Animation">
-
-AI-generated proposals are reviewed before being accepted into the commitment ledger.
-
-### 📊 03 — Smart Daily Priorities
-
-<img src="assets/today-dashboard.gif" width="100%" alt="Daily Priorities Dashboard Animation">
-
-Organize commitments around urgency, deadlines, and outstanding responsibilities.
-
-### 🔄 04 — Recurring Commitments
-
-<img src="assets/recurring-tasks.gif" width="100%" alt="Recurring Commitments Animation">
-
-Support recurring obligations and habit-related workflows.
-
-### 🤖 05 — Autonomous Agent Vision
-
-<img src="assets/agent-workflow.gif" width="100%" alt="Autonomous Agent Workflow Animation">
-
-Build toward proactive deadline monitoring, context-aware follow-ups, and user-controlled automation.
-
-> These GIFs are intended as visual placeholders for demonstrations. Replace them with recordings of the corresponding implemented features. Do not present planned capabilities as completed functionality.
-
----
-
-## 🏗️ System Architecture
-
-<div align="center">
 
 ```mermaid
 flowchart TD
     A["📝 Raw Input"] --> B["🧠 AI Extraction"]
     B --> C["⚡ Nebius Token Factory"]
     C --> D["🟢 NVIDIA Nemotron"]
-    D --> E["📦 Structured Response"]
+    D --> E["📦 Structured Proposal"]
     E --> F["🛡️ Human Approval"]
     F --> G["📒 Local Commitment Ledger"]
-    G --> H["📊 Priorities & Tracking"]
+    G --> H["📊 Priority Tracking"]
 
-    style A fill:#172554,stroke:#00E5FF,color:#fff
-    style B fill:#1e1b4b,stroke:#7B2FF7,color:#fff
-    style C fill:#164e63,stroke:#00E5FF,color:#fff
-    style D fill:#14532d,stroke:#76B900,color:#fff
-    style E fill:#172554,stroke:#00E5FF,color:#fff
-    style F fill:#713f12,stroke:#facc15,color:#fff
-    style G fill:#312e81,stroke:#818cf8,color:#fff
-    style H fill:#14532d,stroke:#76B900,color:#fff
+    style A fill:#10172a,stroke:#00e5ff,color:#fff
+    style B fill:#10172a,stroke:#7b2ff7,color:#fff
+    style C fill:#10172a,stroke:#00e5ff,color:#fff
+    style D fill:#10172a,stroke:#76b900,color:#fff
+    style E fill:#10172a,stroke:#00e5ff,color:#fff
+    style F fill:#10172a,stroke:#facc15,color:#fff
+    style G fill:#10172a,stroke:#818cf8,color:#fff
+    style H fill:#10172a,stroke:#76b900,color:#fff
 ```
 
-</div>
+---
 
-### Technology Stack
+## 🔄 03 — COMMITMENT LIFECYCLE
 
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/NVIDIA_Nemotron-76B900?style=for-the-badge\&logo=nvidia\&logoColor=white)
-![Nebius](https://img.shields.io/badge/Nebius_Token_Factory-00E5FF?style=for-the-badge)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2200&pause=500&color=00E5FF&center=true&vCenter=true&width=750&lines=01.+CAPTURE+THE+PROMISE;02.+EXTRACT+THE+COMMITMENT;03.+VERIFY+THE+DETAILS;04.+APPROVE+THE+PROPOSAL;05.+TRACK+THE+OUTCOME" alt="Commitment Lifecycle Animation">
+
+<br>
+
+| STAGE | ACTION                                |
+| :---: | ------------------------------------- |
+|   01  | 📝 Capture unstructured information   |
+|   02  | 🧠 Extract tasks and relevant details |
+|   03  | 🔍 Review the supporting evidence     |
+|   04  | 🛡️ Approve or edit the proposal      |
+|   05  | 📒 Track the commitment               |
 
 </div>
 
 ---
 
-## 🚀 Quick Start
+## 🎨 04 — FEATURE ANIMATION GALLERY
 
-### Requirements
+<div align="center">
 
-* Node.js 18 or later
-* npm
-* Git
-* Nebius Token Factory API key for live AI inference
+<table>
+<tr>
+<td align="center" width="50%">
 
-### Installation
+### 🔍 AI EXTRACTION
+
+<img src="assets/ai-extraction.gif" width="100%" alt="AI extraction">
+
+Natural-language processing and structured proposals.
+
+</td>
+<td align="center" width="50%">
+
+### 🛡️ HUMAN APPROVAL
+
+<img src="assets/approval-workflow.gif" width="100%" alt="Approval workflow">
+
+User-controlled acceptance of AI suggestions.
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="50%">
+
+### 📅 DEADLINE MANAGEMENT
+
+<img src="assets/deadline-management.gif" width="100%" alt="Deadline management">
+
+Visualize upcoming responsibilities.
+
+</td>
+<td align="center" width="50%">
+
+### 🔄 RECURRING TASKS
+
+<img src="assets/recurring-tasks.gif" width="100%" alt="Recurring task workflow">
+
+Organize repeated commitments.
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="50%">
+
+### 👥 TEAM COLLABORATION
+
+<img src="assets/team-delegation.gif" width="100%" alt="Team collaboration">
+
+Explore delegation and shared accountability workflows.
+
+</td>
+<td align="center" width="50%">
+
+### 🤖 AGENT AUTOMATION
+
+<img src="assets/agent-workflow.gif" width="100%" alt="Agent automation">
+
+Illustrate the planned autonomous follow-up workflow.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+**Important:** The local GIFs above are placeholders for your actual screen recordings. Use only the feature demonstrations that match your implementation.
+
+---
+
+## 🏗️ 05 — TECHNOLOGY STACK
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,git,github,vscode&perline=7" alt="Technology Stack Icons">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Frontend-HTML5_•_CSS3_•_JavaScript-E34F26?style=for-the-badge" alt="Frontend Stack">
+
+<img src="https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Backend Stack">
+
+<img src="https://img.shields.io/badge/AI-NVIDIA_Nemotron-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="AI Model">
+
+<img src="https://img.shields.io/badge/Inference-Nebius_Token_Factory-00D4FF?style=for-the-badge" alt="Inference Provider">
+
+</div>
+
+| Component | Technology             | Responsibility                  |
+| --------- | ---------------------- | ------------------------------- |
+| Frontend  | HTML, CSS, JavaScript  | Interface and user interactions |
+| Backend   | Node.js                | API proxy and request handling  |
+| Inference | Nebius Token Factory   | Hosted model inference          |
+| AI Model  | NVIDIA Nemotron        | Natural-language extraction     |
+| Storage   | Browser `localStorage` | Local commitment persistence    |
+| Hosting   | Vercel                 | Hosted web application          |
+
+---
+
+## 🔐 06 — PRIVACY & SECURITY
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/API_Keys-Server_Side_Only-00C853?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="Server-side credentials">
+
+<img src="https://img.shields.io/badge/Approval-Human_In_The_Loop-00D4FF?style=for-the-badge" alt="Human approval">
+
+<img src="https://img.shields.io/badge/Storage-Local_First-7B2FF7?style=for-the-badge" alt="Local-first storage">
+
+</div>
+
+* 🔑 Keep API keys out of frontend code and Git commits.
+* 📒 Store supported commitment records locally in the browser.
+* 🛡️ Allow users to review extracted proposals.
+* 🔍 Preserve source excerpts when supported.
+* 🚫 Avoid unnecessary logging of sensitive user input.
+
+**Security note:** Browser local storage is not encrypted by default. Information submitted to a hosted AI provider is transmitted outside the browser.
+
+---
+
+## 🚀 07 — QUICK START
 
 ```bash
 git clone https://github.com/Raj-max-pixal/PromiseOs.git
@@ -152,88 +290,83 @@ npm install
 npm start
 ```
 
-Open your browser:
+Open:
 
 ```text
 http://localhost:3000
 ```
 
-Configure the inference credentials using the application's supported settings or the backend's environment configuration.
-
-**Security:** Never commit API keys or secrets to your repository.
+Configure the inference API key using the application's supported settings or the backend's environment configuration.
 
 ---
 
-## 🔐 Privacy & Security
+## 🗺️ 08 — PROJECT ROADMAP
 
-* 📒 Commitment records can be stored in browser `localStorage`.
-* 🔑 API credentials should remain on the server.
-* 🛡️ Users review extracted commitments before approval.
-* 🔍 Source excerpts support verification of AI-generated proposals.
-* 🚫 Production deployments should validate inputs, restrict access where necessary, and avoid logging sensitive data.
+<div align="center">
 
-**Privacy note:** Data sent to a hosted inference provider leaves the browser. Local storage is not encrypted by default.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2500&pause=600&color=76B900&center=true&vCenter=true&width=700&lines=PHASE+01%3A+CORE+INTELLIGENCE;PHASE+02%3A+ADVANCED+INTEGRATIONS;PHASE+03%3A+AUTONOMOUS+AGENTS;BUILDING+TOWARD+ACCOUNTABILITY." alt="Animated Roadmap">
 
----
+</div>
 
-## 🗺️ Development Roadmap
-
-* [x] Core commitment management interface
+* [x] Core commitment interface
 * [x] AI extraction integration
 * [x] Human approval workflow
-* [x] Browser-based ledger
+* [x] Browser-based commitment ledger
 * [x] Backend inference proxy
 * [ ] Production-grade calendar synchronization
-* [ ] Robust multi-user delegation
+* [ ] Robust team collaboration
 * [ ] Reliable background agent execution
 * [ ] Auditable automated follow-ups
 * [ ] Enhanced security and synchronization
 
-Update the checklist to match the actual implementation in the repository.
+Update these checkboxes to reflect verified implementation status.
 
 ---
 
-## 🌟 Project Vision
+## 💡 09 — WHY PROMISEOS?
 
 <div align="center">
 
-### A promise should not disappear into a chat history.
-
-**Capture it. Verify it. Track it. Complete it.**
-
-PromiseOS aims to make personal accountability a first-class part of AI-powered productivity.
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=1000&color=76B900&center=true&vCenter=true&width=600&lines=Less+forgetting.;More+follow-through.;Built+for+real-world+commitments." alt="Animated Project Vision">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=700&color=00E5FF&center=true&vCenter=true&width=750&lines=Conversations+are+not+commitments.;AI+suggestions+need+verification.;Accountability+requires+follow-through." alt="PromiseOS Mission Animation">
 
 </div>
 
+Traditional chatbots focus on generating responses. PromiseOS focuses on turning information into commitments that users can review and track.
+
+Its core workflow combines:
+
+* **Extraction:** Identify potential commitments.
+* **Verification:** Preserve evidence and let users review the result.
+* **Approval:** Keep users in control.
+* **Tracking:** Organize approved commitments for follow-through.
+
 ---
 
-## 🤝 Contributing
+## 🤝 10 — CONTRIBUTING
 
-Contributions, bug reports, and feature suggestions are welcome.
+Contributions and feedback are welcome!
 
 1. Fork the repository.
 2. Create a feature branch.
 3. Implement and test your changes.
 4. Submit a pull request.
 
-## 📄 License
+## 📄 LICENSE
 
-Released under the MIT License. See [`LICENSE`](LICENSE) for details.
+Released under the MIT License. See [`LICENSE`](LICENSE).
 
 ---
 
 <div align="center">
 
-### ⚡ PROMISE_OS
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=25&duration=2500&pause=1000&color=76B900&center=true&vCenter=true&width=700&lines=CAPTURE+THE+PROMISE.;VERIFY+THE+COMMITMENT.;COMPLETE+THE+MISSION." alt="Animated Closing Message">
+
+<br><br>
 
 **Built by Raj for the Nebius x NVIDIA Global AI Hackathon.**
 
-[🌐 Live Demo](https://nebius-nvidia-hackathon-seven.vercel.app) · [💻 GitHub](https://github.com/Raj-max-pixal/PromiseOs)
+[🌐 Live Demo](https://nebius-nvidia-hackathon-seven.vercel.app) · [💻 GitHub Repository](https://github.com/Raj-max-pixal/PromiseOs)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7B2FF7,50:4169E1,100:00E5FF&section=footer" width="100%" alt="Animated Footer">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:7B2FF7,50:090979,100:00D4FF&section=footer" width="100%" alt="Animated Footer">
 
 </div>
