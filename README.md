@@ -1,107 +1,239 @@
 <div align="center">
 
-# 🌿🧠 PROMISEOS — THE VERIFIABLE COMMITMENT LEDGER 🧠🌿
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Green%20Apple.png" width="35" height="35" /> **Your commitments, not another chat bot.** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Green%20Apple.png" width="35" height="35" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00E5FF,50:4169E1,100:7B2FF7&text=PROMISE_OS&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Your%20commitments%2C%20not%20another%20chatbot.&descAlignY=60&descSize=18" width="100%" alt="PromiseOS Animated Header">
 
 <br>
 
-[![Nebius x NVIDIA Hackathon](https://img.shields.io/badge/🏆_Nebius_x_NVIDIA-Global_AI_Hackathon-76B900?style=for-the-badge&logo=nvidia&logoColor=black)](https://nebius.com)
-[![NVIDIA Nemotron](https://img.shields.io/badge/🤖_Powered_by-NVIDIA_Nemotron-76B900?style=for-the-badge&logo=nVIDIA&logoColor=white)](https://build.nvidia.com)
-[![Nebius Token Factory](https://img.shields.io/badge/⚡_Inference-Nebius_Token_Factory-00E5FF?style=for-the-badge&logo=cloud&logoColor=black)](https://nebius.ai)
-[![License: MIT](https://img.shields.io/badge/📜_License-MIT-success?style=for-the-badge)](LICENSE)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=700&lines=Capture+the+promise.;Verify+the+commitment.;Complete+the+mission.;AI-powered+personal+accountability." alt="Animated PromiseOS Taglines">
+
+<br><br>
+
+[![Nebius x NVIDIA Hackathon](https://img.shields.io/badge/Nebius_x_NVIDIA-Global_AI_Hackathon-76B900?style=for-the-badge\&logo=nvidia\&logoColor=white)](https://nebius.com)
+[![NVIDIA Nemotron](https://img.shields.io/badge/AI-NVIDIA_Nemotron-76B900?style=for-the-badge\&logo=nvidia\&logoColor=white)](https://build.nvidia.com)
+[![Nebius Token Factory](https://img.shields.io/badge/Inference-Nebius_Token_Factory-00E5FF?style=for-the-badge)](https://nebius.ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 <br>
 
-### *Turn messy notes, chat logs, and meeting scraps into a living, verifiable commitment ledger with automated team sync and autonomous agent swarms!* ✨🚀
-
-[🌐 **Explore Live Application**](https://nebius-nvidia-hackathon-seven.vercel.app) • [⚡ **Quick Start Guide**](#-quick-start) • [🏗️ **Architecture**](#-architecture)
-
----
+### 🌐 [LIVE DEMO](https://nebius-nvidia-hackathon-seven.vercel.app) · [💻 SOURCE CODE](https://github.com/Raj-max-pixal/PromiseOs)
 
 </div>
 
-<br>
+---
 
-## 🌟 What is PromiseOS?
+## 🎬 Experience PromiseOS
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="60" height="60" />
+
+<!-- Replace this image with your actual application demo GIF -->
+
+<img src="assets/promiseos-demo.gif" width="90%" alt="PromiseOS Application Demo">
+
+**From scattered conversations to structured commitments.**
+
 </div>
 
-Standard AI assistants chat, hallucinate, and forget. **PromiseOS** is different. It is a privacy-first personal AI operating system built for strict accountability across three powerful milestones:
-
-* **Part 1 (Core Intelligence):** Captures raw inputs, utilizes state-of-the-art **NVIDIA Nemotron** models via the blazing-fast **Nebius Token Factory**, and maintains a strict, browser-local verifiable ledger (`localStorage`).
-* **Part 2 (Advanced Integrations):** Scales accountability with production-grade calendar synchronization, recurring habit detection, and collaborative team delegation workflows.
-* **Part 3 (Autonomous Agent Swarms):** Deploys proactive multi-agent follow-up loops that autonomously monitor progress, synthesize cross-source context, and nudge stakeholders before deadlines slip.
+> **Note:** Add your actual demonstration GIF at `assets/promiseos-demo.gif`. The image will not appear until that file exists in your repository.
 
 ---
 
-## 🎨 The Green Theme & Cartoon Data Flow Storyboard
+## ⚡ What Is PromiseOS?
 
-📥 Raw Capture           🤖 NVIDIA Nemotron           🛡️ Human Review          📋 Ledger & Swarms
-(Notes, Chats, Scraps) ────> (Nebius Token Factory) ────> (You Verify/Approve) ────> (Sync, Cal & Agents)
+PromiseOS is an AI-powered commitment management platform that transforms unstructured notes, conversations, and ideas into actionable commitments.
 
+Powered by **NVIDIA Nemotron through Nebius Token Factory**, PromiseOS combines AI extraction, human approval, and a local-first commitment ledger.
 
-* 🟢 **Zero SaaS Bloat:** Your raw notes and commitments remain securely stored inside your browser's local sandbox. The backend proxy is 100% stateless!
-* 🟢 **Evidence-Backed Guarantees:** Every extracted promise points directly back to a verifiable highlight or quote from your text source.
-* 🟢 **High-Trust Neon Aesthetics:** Designed with crisp neon green accents, dark-mode sleekness, and fluid animated feedback loops.
+Instead of generating another conversation, PromiseOS helps users identify what they promised, determine what needs attention, and track what remains unfinished.
 
----
+<div align="center">
 
-## 🚀 Complete Feature Matrix (Parts 1, 2 & 3)
+|       🧠 AI Intelligence      |       🔒 Privacy First      |     🎯 Accountability     |
+| :---------------------------: | :-------------------------: | :-----------------------: |
+| Extract commitments from text |  Browser-based local ledger | Track tasks and deadlines |
+|    Structured AI responses    | Server-side API credentials |   Human-approved actions  |
+|   Evidence-backed proposals   |   User-controlled approval  | Risk-aware prioritization |
 
-| Feature Module | Description | Status |
-| :--- | :--- | :--- |
-| **🧠 AI Extraction Engine (Part 1)** | Powered by **NVIDIA Nemotron** to parse structured tasks, owners, and dates. | `🟢 Active` |
-| **🛡️ Human Approval Gate (Part 1)** | Model proposals *never* enter your ledger automatically. You review and click accept! | `🟢 Active` |
-| **📊 Risk-Ranked Today View (Part 1)** | Instantly surfaces what truly matters right now alongside concise AI daily plans. | `🟢 Active` |
-| **🗓️ Calendar & Deadline Sync (Part 2)** | Automatically map extracted commitments directly into time blocks with buffer estimation. | `🟢 Active` |
-| **🔄 Recurring Commitment Engine (Part 2)** | Detects habits and repeating obligations (e.g., weekly syncs, daily check-ins). | `🟢 Active` |
-| **👥 Collaborative Delegation (Part 2)** | Safely route commitments to teammates with secure handoff tokens. | `🟢 Active` |
-| **🤖 Autonomous Agent Swarms (Part 3)** | Proactive background agents that monitor deadlines, synthesize context, and automate follow-ups. | `🚀 Deploying` |
-| **🔑 Credential-Free Demo Mode** | Judges and visitors can explore the full interface right out of the box. | `🟢 Active` |
+</div>
 
 ---
 
-## 🏗️ Technical Architecture
+## ✨ Features in Action
+
+### 🧠 01 — AI Commitment Extraction
+
+<img src="assets/ai-extraction.gif" width="100%" alt="AI Commitment Extraction Animation">
+
+Transform ordinary sentences into structured tasks with relevant details, owners, deadlines, and supporting source excerpts.
+
+### 🛡️ 02 — Human Approval Gate
+
+<img src="assets/approval-workflow.gif" width="100%" alt="Human Approval Workflow Animation">
+
+AI-generated proposals are reviewed before being accepted into the commitment ledger.
+
+### 📊 03 — Smart Daily Priorities
+
+<img src="assets/today-dashboard.gif" width="100%" alt="Daily Priorities Dashboard Animation">
+
+Organize commitments around urgency, deadlines, and outstanding responsibilities.
+
+### 🔄 04 — Recurring Commitments
+
+<img src="assets/recurring-tasks.gif" width="100%" alt="Recurring Commitments Animation">
+
+Support recurring obligations and habit-related workflows.
+
+### 🤖 05 — Autonomous Agent Vision
+
+<img src="assets/agent-workflow.gif" width="100%" alt="Autonomous Agent Workflow Animation">
+
+Build toward proactive deadline monitoring, context-aware follow-ups, and user-controlled automation.
+
+> These GIFs are intended as visual placeholders for demonstrations. Replace them with recordings of the corresponding implemented features. Do not present planned capabilities as completed functionality.
+
+---
+
+## 🏗️ System Architecture
+
+<div align="center">
 
 ```mermaid
-graph TD
-    A[🌐 Client Browser / Local Ledger] -->|Stateless Proxy Request| B[⚙️ Node.js Backend Server]
-    B -->|API Request| C[☁️ Nebius Token Factory]
-    C -->|High-Speed Inference| D[🤖 NVIDIA Nemotron Model]
-    D -->|Structured Extracted JSON| B
-    B -->|Verified Payload / Sync / Agents| A
-Client Layer: Vanilla JS / HTML5 local single-page app utilizing localStorage.
+flowchart TD
+    A["📝 Raw Input"] --> B["🧠 AI Extraction"]
+    B --> C["⚡ Nebius Token Factory"]
+    C --> D["🟢 NVIDIA Nemotron"]
+    D --> E["📦 Structured Response"]
+    E --> F["🛡️ Human Approval"]
+    F --> G["📒 Local Commitment Ledger"]
+    G --> H["📊 Priorities & Tracking"]
 
-Proxy Layer: Lightweight Node.js server (local-server.js / server.js) designed for secure key routing without persistence.
+    style A fill:#172554,stroke:#00E5FF,color:#fff
+    style B fill:#1e1b4b,stroke:#7B2FF7,color:#fff
+    style C fill:#164e63,stroke:#00E5FF,color:#fff
+    style D fill:#14532d,stroke:#76B900,color:#fff
+    style E fill:#172554,stroke:#00E5FF,color:#fff
+    style F fill:#713f12,stroke:#facc15,color:#fff
+    style G fill:#312e81,stroke:#818cf8,color:#fff
+    style H fill:#14532d,stroke:#76B900,color:#fff
+```
 
-Inference Layer: High-throughput GPU infrastructure powered by Nebius running NVIDIA Nemotron.
+</div>
 
-⚙️ Quick Start (Run Locally in 60 Seconds)
-Get PromiseOS up and running on your local machine instantly!
+### Technology Stack
 
-Bash
-# 1. Clone the repository
-git clone [https://github.com/Raj-max-pixal/PromiseOs.git](https://github.com/Raj-max-pixal/PromiseOs.git)
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA_Nemotron-76B900?style=for-the-badge\&logo=nvidia\&logoColor=white)
+![Nebius](https://img.shields.io/badge/Nebius_Token_Factory-00E5FF?style=for-the-badge)
+
+</div>
+
+---
+
+## 🚀 Quick Start
+
+### Requirements
+
+* Node.js 18 or later
+* npm
+* Git
+* Nebius Token Factory API key for live AI inference
+
+### Installation
+
+```bash
+git clone https://github.com/Raj-max-pixal/PromiseOs.git
 cd PromiseOs
-
-# 2. Install dependencies (Requires Node.js 18+)
 npm install
-
-# 3. Start the local server
 npm start
-🌐 Open your browser and point to http://localhost:3000!
+```
 
-💡 Tip: To test live AI extractions, open the Model & Privacy Settings inside the app UI and paste your Nebius Token Factory API key.
+Open your browser:
 
-🗺️ Master Roadmap & Evolution
-[x] Part 1: Core Intelligence — Local-first ledger, NVIDIA Nemotron integration, and Nebius Token Factory proxy pipeline.
+```text
+http://localhost:3000
+```
 
-[x] Part 2: Advanced Integrations — Real-time calendar syncing, recurring obligations, and team delegation workflows.
+Configure the inference credentials using the application's supported settings or the backend's environment configuration.
 
-[x] Part 3: Autonomous Agent Swarms — Proactive background follow-up agents and multi-source context synthesis. (Current Release)
+**Security:** Never commit API keys or secrets to your repository.
 
-Built with passion & code for the Nebius x NVIDIA Global AI Hackathon
-© 2026 T. Raja Saranya · Released under the MIT License.
+---
+
+## 🔐 Privacy & Security
+
+* 📒 Commitment records can be stored in browser `localStorage`.
+* 🔑 API credentials should remain on the server.
+* 🛡️ Users review extracted commitments before approval.
+* 🔍 Source excerpts support verification of AI-generated proposals.
+* 🚫 Production deployments should validate inputs, restrict access where necessary, and avoid logging sensitive data.
+
+**Privacy note:** Data sent to a hosted inference provider leaves the browser. Local storage is not encrypted by default.
+
+---
+
+## 🗺️ Development Roadmap
+
+* [x] Core commitment management interface
+* [x] AI extraction integration
+* [x] Human approval workflow
+* [x] Browser-based ledger
+* [x] Backend inference proxy
+* [ ] Production-grade calendar synchronization
+* [ ] Robust multi-user delegation
+* [ ] Reliable background agent execution
+* [ ] Auditable automated follow-ups
+* [ ] Enhanced security and synchronization
+
+Update the checklist to match the actual implementation in the repository.
+
+---
+
+## 🌟 Project Vision
+
+<div align="center">
+
+### A promise should not disappear into a chat history.
+
+**Capture it. Verify it. Track it. Complete it.**
+
+PromiseOS aims to make personal accountability a first-class part of AI-powered productivity.
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=1000&color=76B900&center=true&vCenter=true&width=600&lines=Less+forgetting.;More+follow-through.;Built+for+real-world+commitments." alt="Animated Project Vision">
+
+</div>
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and feature suggestions are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Implement and test your changes.
+4. Submit a pull request.
+
+## 📄 License
+
+Released under the MIT License. See [`LICENSE`](LICENSE) for details.
+
+---
+
+<div align="center">
+
+### ⚡ PROMISE_OS
+
+**Built by Raj for the Nebius x NVIDIA Global AI Hackathon.**
+
+[🌐 Live Demo](https://nebius-nvidia-hackathon-seven.vercel.app) · [💻 GitHub](https://github.com/Raj-max-pixal/PromiseOs)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7B2FF7,50:4169E1,100:00E5FF&section=footer" width="100%" alt="Animated Footer">
+
+</div>
